@@ -142,7 +142,7 @@ $no = 1;
 
   <br>
 
-- Program ini merupakan sebuah form untuk menambahkan data barang ke dalam database. Pada saat form dikirimkan (submit), data yang dimasukkan oleh pengguna akan diolah terlebih dahulu dan kemudian dimasukkan ke dalam database.
+- Sintax ini merupakan sebuah form untuk menambahkan data barang ke dalam database. Pada saat form dikirimkan (submit), data yang dimasukkan oleh pengguna akan diolah terlebih dahulu dan kemudian dimasukkan ke dalam database.
 
 ```php
 <?php
@@ -252,7 +252,7 @@ stok, gambar) ';
 
 <br>
 
-- Script ini merupakan sebuah form untuk mengubah data barang yang telah tersimpan dalam database. Pertama, dilakukan koneksi ke database menggunakan file koneksi.php. Kemudian dilakukan pengecekan apakah form telah di-submit menggunakan isset($\_POST['submit']). Jika ya, maka dilakukan proses update data barang dengan mengambil nilai-nilai form dan mengganti data lama di database dengan yang baru. Gambar barang yang diunggah akan diubah dengan menggunakan fungsi move_uploaded_file. Jika tidak ada gambar yang diunggah, maka gambar akan tetap menggunakan gambar lama.
+- Sintax ini merupakan sebuah form untuk mengubah data barang yang telah tersimpan dalam database. Pertama, dilakukan koneksi ke database menggunakan file koneksi.php. Kemudian dilakukan pengecekan apakah form telah di-submit menggunakan isset($\_POST['submit']). Jika ya, maka dilakukan proses update data barang dengan mengambil nilai-nilai form dan mengganti data lama di database dengan yang baru. Gambar barang yang diunggah akan diubah dengan menggunakan fungsi move_uploaded_file. Jika tidak ada gambar yang diunggah, maka gambar akan tetap menggunakan gambar lama.
 
   ```php
   /<?php
