@@ -368,6 +368,9 @@ stok, gambar) ';
   </html>
   ```
 
+<br>
+<br>
+
 ## Form Hapus.php
 
   <img src="output/hapus.png">
