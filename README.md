@@ -367,3 +367,25 @@ stok, gambar) ';
             </body>
   </html>
   ```
+
+## Form Hapus.php
+
+  <img src="output/hapus.png">
+
+<br>
+
+- Sintas ini merupakan script PHP untuk menghapus data pada tabel "data_barang" berdasarkan ID tertentu yang diterima dari parameter GET. Koneksi ke database diatur dengan menggunakan file "koneksi.php". Kemudian, sebuah query SQL dijalankan dengan menggunakan fungsi "mysqli_query()" untuk menghapus data berdasarkan ID yang diterima. Setelah itu, pengguna akan dialihkan kembali ke halaman "index.php" dengan menggunakan fungsi "header()".
+
+```php
+<?php
+include_once 'koneksi.php';
+$id = $_GET['id'];
+$sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
+$result = mysqli_query($conn, $sql);
+header('location: index.php');
+?>
+```
+
+<br>
+
+# TERIMAKASIH
