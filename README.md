@@ -30,7 +30,6 @@ if ($conn == false) {
 
 ## Index.php
 
-<img src="arielsa.mra.my.id/assest/img/foto/foto.png">
 <img src="output/hasil.png">
 
 <br>
