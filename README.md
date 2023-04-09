@@ -23,14 +23,14 @@ if ($conn == false) {
 
 - ### contoh database yang dibuat
 
-  <img src="output/database.png">
+  <img src="https://arielsa.mra.my.id/foto/lab3/database.png">
 
 <br>
 <br>
 
 ## Index.php
 
-<img src="output/hasil.png">
+<img src="https://arielsa.mra.my.id/foto/lab3/hasil.png">
 
 <br>
 
@@ -138,7 +138,7 @@ $no = 1;
 
 ## Form Tambah.php
 
-  <img src="output/tambah.png">
+  <img src="https://arielsa.mra.my.id/foto/lab3/tambah.png">
 
   <br>
 
@@ -248,7 +248,7 @@ stok, gambar) ';
 
 ## Form Ubah.php
 
-<img src="output/ubah.png">
+<img src="https://arielsa.mra.my.id/foto/lab3/ubah.png">
 
 <br>
 
@@ -373,7 +373,7 @@ stok, gambar) ';
 
 ## Form Hapus.php
 
-  <img src="output/hapus.png">
+  <img src="https://arielsa.mra.my.id/foto/lab3/hapus.png">
 
 <br>
 
